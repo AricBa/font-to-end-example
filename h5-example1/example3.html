@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏式布局</title>
+    <link rel="stylesheet" href="style/example3.css" type="text/css">
+</head>
+<body>
+    <div class="contain">
+        <div class="left">
+            <img src="img/test.png">
+            <span>test csstest css test css test css test css</span>
+        </div>
+        <div class="right">
+            <img src="img/ben.png" alt="portrait">
+            <img src="img/ben.png" alt="portrait">
+            <img src="img/ben.png" alt="portrait">
+            <img src="img/ben.png" alt="portrait">
+        </div>
+        <div class="main">
+            <article>
+                <h2>我的团队</h2>
+
+                <p>成员：帅哥 美女</p>
+
+                <p class="main-content">
+                    当同一个 HTML 元素被不止一个样式定义时，会使用哪个样式呢？
+                    一般而言，所有的样式会根据下面的规则层叠于一个新的虚拟样式表中，其中数字 4 拥有最高的优先权。
+                    浏览器缺省设置
+                    外部样式表
+                    内部样式表（位于 标签内部）<br/>
+                    内联样式（在 HTML 元素内部）
+                    因此，内联样式（在 HTML 元素内部）拥有最高的优先权，
+                    这意味着它将优先于以下的样式声明： 标签中的样式声明，外部样式表中的样式声明，或者浏览器中的样式声明（缺省值）
+                </p>
+            </article>
+        </div>
+
+    </div>
+</body>
+</html>
