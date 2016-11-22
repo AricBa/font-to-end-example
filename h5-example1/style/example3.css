@@ -1,4 +1,9 @@
 /*emample 3*/
+body {
+    padding: 20px;
+    font-family: "Microsoft Yahei";
+    margin: 0;
+}
 
 .contain {
     border: 1px solid #999;

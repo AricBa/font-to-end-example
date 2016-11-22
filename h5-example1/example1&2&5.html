@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>example</title>
-	<link type="text/css" href="style/example1.css" rel="stylesheet">
+	<link type="text/css" href="style/example2&5.css" rel="stylesheet">
 </head>
 <body>
 	<div class="header">
@@ -17,6 +17,46 @@
 		</ul>
 
 	</div>
+	<aside>
+		<h2><span>这里以后是一个侧栏，这是侧栏的标题</span></h2>
+
+		<!--<h3>侧栏注册窗口标题</h3>-->
+
+		<form>
+			<label class="form-text">请输入邮箱地址</label>
+			<input placeholder="这是一个文本输入框" id="email" name="email" type="email">
+			<p class="form-hint">邮箱地址请按要求格式输入</p>
+
+			<label class="form-text">输入密码</label>
+			<input placeholder="这是一个文本输入框" id="pw1" name="pw1" type="password">
+			<br/>
+			<label class="form-text">再输一遍：</label>
+			<input placeholder="这是一个文本输入框" id="pw2" name="pw2" type="password">
+
+			<p class="form-hint">密码为6-16位英文数字</p>
+
+			<label class="form-text">性别</label>
+			<input type="radio" name="Sex" checked="checked" value="male" >男
+			<input type="radio" name="Sex"  value="female" >女
+			<br/>
+			<label class="form-text">城市</label>
+			<select name="city">
+				<option value="BJ">北京</option>
+				<option value="SH">上海<option>
+			</select>
+			<br/>
+			<label  class="form-text">爱好</label>
+			<input type="checkbox" name="hobby" value="sport">运动
+			<input type="checkbox" name="hobby" value="art">艺术
+			<input type="checkbox" name="hobby" value="science">科学
+			<br/>
+			<label  class="form-text">个人描述</label>
+			<textarea placeholder="这是一个多行输入框，输入个人描述" col="30" rows="2"></textarea>
+			<!--<button type="submit" click="submit()">提交</button>-->
+			<br/>
+			<input type="submit" name ="submit" value="确认提交" class="submit-btn">
+		</form>
+	</aside>
 
     <article>
 		<h2>文章一级标题</h2>
@@ -68,16 +108,22 @@
 
 	</article>
 
+	<!--<div>-->
+		<!--<h2>图片</h2>-->
+		<!--<ul></ul>-->
+	<!--</div>-->
+
 	<div class="picture">
 		<h2>图片</h2>
 		<ul>
-			<li><span>陈意涵美美哒+1</span><br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" title="陈意涵美美哒" style="width:300px;height:200px;"></li>
-			<li><span>陈意涵美美哒+2</span><br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
-			<li>陈意涵美美哒+3<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
-			<li>陈意涵美美哒+4<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
-			<li>陈意涵美美哒+5<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
-			<li>陈意涵美美哒+6<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
-			<li>陈意涵美美哒+10000<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+			<li><p>图片+1</p><img src="img/test.png" alt="图片"></li>
+			<li><p>图片+2</p><img src="img/test.png" alt="图片"></li>
+			<li><p>图片+3</p><img src="img/test.png" alt="图片"></li>
+			<li><p>图片+4</p><img src="img/test.png" alt="图片"></li>
+			<li><p>图片+5</p><img src="img/test.png" alt="图片"></li>
+			<li><p>图片+6</p><img src="img/test.png" alt="图片"></li>
+			<li><p>图片+7</p><img src="img/test.png" alt="图片"></li>
+			<li><p>图片+8</p><img src="img/test.png" alt="图片"></li>
 		</ul>
 	</div>
 
@@ -123,46 +169,46 @@
 		</table>
 	</article>
 
-	<div class="form">
-		<h2><span>这里以后是一个侧栏，这是侧栏的标题</span></h2>
+	<!--<div class="form">-->
+		<!--<h2><span>这里以后是一个侧栏，这是侧栏的标题</span></h2>-->
 
-		<!--<h3>侧栏注册窗口标题</h3>-->
+		<!--&lt;!&ndash;<h3>侧栏注册窗口标题</h3>&ndash;&gt;-->
 
-		<form>
-			<label class="form-text">请输入邮箱地址</label>
-			<input placeholder="这是一个文本输入框" id="email" name="email" type="email">
-			<p class="form-hint">邮箱地址请按要求格式输入</p>
+		<!--<form>-->
+			<!--<label class="form-text">请输入邮箱地址</label>-->
+			<!--<input placeholder="这是一个文本输入框" id="email" name="email" type="email">-->
+			<!--<p class="form-hint">邮箱地址请按要求格式输入</p>-->
 
-			<label class="form-text">输入密码</label>
-			<input placeholder="这是一个文本输入框" id="pw1" name="pw1" type="password">
-			<br/>
-			<label class="form-text">再输一遍：</label>
-			<input placeholder="这是一个文本输入框" id="pw2" name="pw2" type="password">
+			<!--<label class="form-text">输入密码</label>-->
+			<!--<input placeholder="这是一个文本输入框" id="pw1" name="pw1" type="password">-->
+			<!--<br/>-->
+			<!--<label class="form-text">再输一遍：</label>-->
+			<!--<input placeholder="这是一个文本输入框" id="pw2" name="pw2" type="password">-->
 
-			<p class="form-hint">密码为6-16位英文数字</p>
+			<!--<p class="form-hint">密码为6-16位英文数字</p>-->
 
-			<label class="form-text">性别</label>
-			<input type="radio" name="Sex" checked="checked" value="male" >男
-			<input type="radio" name="Sex"  value="female" >女
-			<br/>
-			<label class="form-text">城市</label>
-			<select name="city">
-				<option value="BJ">北京</option>
-				<option value="SH">上海<option>
-			</select>
-			<br/>
-			<label  class="form-text">爱好</label>
-			<input type="checkbox" name="hobby" value="sport">运动
-			<input type="checkbox" name="hobby" value="art">艺术
-			<input type="checkbox" name="hobby" value="science">科学
-			<br/>
-			<label  class="form-text">个人描述</label>
-			<textarea placeholder="这是一个多行输入框，输入个人描述" col="30" rows="2"></textarea>
-			<!--<button type="submit" click="submit()">提交</button>-->
-			<br/>
-			<input type="submit" name ="submit" value="确认提交" class="submit-btn">
-		</form>
-	</div>
-	<footer>版权所有@</footer>
+			<!--<label class="form-text">性别</label>-->
+			<!--<input type="radio" name="Sex" checked="checked" value="male" >男-->
+			<!--<input type="radio" name="Sex"  value="female" >女-->
+			<!--<br/>-->
+			<!--<label class="form-text">城市</label>-->
+			<!--<select name="city">-->
+				<!--<option value="BJ">北京</option>-->
+				<!--<option value="SH">上海<option>-->
+			<!--</select>-->
+			<!--<br/>-->
+			<!--<label  class="form-text">爱好</label>-->
+			<!--<input type="checkbox" name="hobby" value="sport">运动-->
+			<!--<input type="checkbox" name="hobby" value="art">艺术-->
+			<!--<input type="checkbox" name="hobby" value="science">科学-->
+			<!--<br/>-->
+			<!--<label  class="form-text">个人描述</label>-->
+			<!--<textarea placeholder="这是一个多行输入框，输入个人描述" col="30" rows="2"></textarea>-->
+			<!--&lt;!&ndash;<button type="submit" click="submit()">提交</button>&ndash;&gt;-->
+			<!--<br/>-->
+			<!--<input type="submit" name ="submit" value="确认提交" class="submit-btn">-->
+		<!--</form>-->
+	<!--</div>-->
+	<footer><span>版权所有@</span></footer>
 </body>
 </html>
