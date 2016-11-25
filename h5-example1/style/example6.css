@@ -338,3 +338,101 @@ footer p{
     width: 459px;
     height: 305px;
 }
+
+.triangle {
+    border-bottom: 10px solid #000;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: inline-block;
+}
+
+.right-down .right-down-prt1 {
+    font-size: 16px;
+    color: #5a5b5b;
+    font-family: "Songti TC";
+    margin-left: 40px;
+    padding-top: 23px;
+    line-height: 41px;
+    padding-right: 60px;
+    text-align: right;
+}
+
+.right-down .right-down-prt1 .mark-one {
+    text-align: left;
+}
+
+.right-down .right-down-prt1 .mark-two {
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+.right-down .right-down-prt2 {
+    width: 244px;
+    height: 140px;
+    background: #d45d5c;
+    margin-top: 16px;
+    float: left;
+}
+
+.right-down .right-down-prt3 {
+    float: right;
+    width: 183px;
+    margin-top: 20px;
+}
+
+.right-down .right-down-prt3 .word {
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: "Heiti TC";
+    font-style: italic;
+    text-align: right;
+    line-height: 16px;
+}
+
+
+.quotation-left, .quotation-right{
+    font-size: 60px;
+    color: #d45d5c;
+}
+
+.quotation-left {
+    float: left;
+    margin: -12px 0px 0px -27px;
+}
+
+.quotation-right {
+    float: right;
+    margin-right: 30px;
+    margin-top: -11px;
+}
+
+.right-down-prt2>p {
+    font-size: 110px;
+    color: #fff;
+    padding: 0 10px;
+    float: left;
+}
+
+.right-down-prt2 .right-world {
+    width: auto;
+    height: 70px;
+    border-left: 2px solid #fff;
+    margin-left: 70px;
+    margin-top: 22px;
+    padding-top: 10px;
+}
+
+.right-down-prt2 .right-world .right-world-up{
+    font-size: 21px;
+    font-family: "Heiti TC";
+    font-style: italic;
+    line-height: 24px;
+    color: #fff;
+}
+
+.right-down-prt2 .right-world .right-world-down{
+    font-size: 12px;
+    color: #fff;
+    font-family: "Heiti TC";
+    line-height: 11px;
+}
