@@ -15,10 +15,10 @@ header .banner-left{
     vertical-align: middle;
     line-height: 60px;
     text-align: center;
-
+    
     position: relative;
     left: 7%;
-
+    
     background: url(../images/icon-1.png) no-repeat left;
     background-size: 16% 50%;
 }
@@ -34,7 +34,7 @@ header nav{
     width: 30%;
     display: inline-block;
     vertical-align: middle;
-
+    
     position: relative;
     left: 40%;
 }
@@ -55,7 +55,7 @@ header nav ul li{
     box-sizing: border-box;
     color: #534141;
     cursor: pointer;
-
+    
     -webkit-transition:color 0.4s ease-in-out;
     -moz-transition:color 0.4s ease-in-out;
     transition:color 0.4s ease-in-out;
@@ -68,7 +68,7 @@ header nav ul .move{
     border-top: 4px solid #E53C3C;
     left: 0;
     top: 55px;
-
+    
     -webkit-transition: left 0.4s ease-in-out;
     -moz-transition: left 0.4s ease-in-out;
     transition: left 0.4s ease-in-out;
@@ -98,10 +98,10 @@ header .banner-right{
     line-height: 60px;
     text-align: center;
     cursor: pointer;
-
+    
     position: relative;
     left: 50%;
-
+    
     background: url(../images/icon-2.jpg) no-repeat left;
     background-size: 15px 18px;
 }
@@ -111,7 +111,7 @@ header .banner-right .move{
     position: absolute;
     top: 45px;
     left: 25%;
-
+    
     -webkit-transition:width 0.4s ease-in-out;
     -moz-transition:width 0.4s ease-in-out;
     transition:width 0.4s ease-in-out;
@@ -155,7 +155,7 @@ header .banner-right:hover .move{
     color: #fff;
     background: #E53C3C;
     cursor: pointer;
-
+    
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -194,7 +194,7 @@ header .banner-right:hover .move{
     text-align: center;
     box-sizing: border-box;
     border-right: 2px solid #534141;
-
+    
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -218,7 +218,7 @@ header .banner-right:hover .move{
 #section-3 .mes{
     font-size: 50px;
     color: #534141;
-
+    
     position: relative;
     top: 100px;
 }
@@ -248,7 +248,7 @@ header .banner-right:hover .move{
     height: 20px;
     margin-top: 10px;
     border-top: 2px solid #fff;
-
+    
     -webkit-transition: width 0.4s ease-in-out;
     -moz-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
@@ -273,18 +273,18 @@ header .banner-right:hover .move{
     width: 240px;
     height: 36px;
     margin: 0 10px;
-
+    
     font-size: 14px;
     line-height: 36px;
     text-align: left;
     color: #B3B3B3;
-
+    
     display: inline-block;
     position: relative;
-
+    
     box-sizing: border-box;
     border: 1px solid #C6B3AF;
-
+    
     background: url(../images/icon-7.png) no-repeat 210px 8px,#fff;
     background-size: 20px;
 }
@@ -360,7 +360,7 @@ header .banner-right:hover .move{
     cursor: pointer;
     position: relative;
     top: 36px;
-
+    
     -webkit-transition: background-color 0.4s ease-in-out;
     -moz-transition: background-color 0.4s ease-in-out;
     transition: background-color 0.4s ease-in-out;
@@ -451,13 +451,13 @@ header .banner-right:hover .move{
 #section-6 .left .mes p:nth-child(1){
     font-size: 50px;
     height: 50px;
-    line-height: 50px;
-    margin-bottom: 0px;
+     line-height: 50px;
+     margin-bottom: 0px;
 }
 #section-6 .left .mes p:nth-child(2){
     font-size: 150px;
     height: 150px;
-    line-height: 150px;
+     line-height: 150px;
 }
 #section-6 .left::after{
     content: '';
@@ -504,7 +504,7 @@ header .banner-right:hover .move{
     font-size: 14px;
     color: #B3AFAC;
     margin-bottom: 60px;
-
+    
     -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
@@ -522,7 +522,7 @@ header .banner-right:hover .move{
     color: #BE4F48;
     background-color: #fff;
     cursor: pointer;
-
+    
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -615,7 +615,7 @@ header .banner-right:hover .move{
     width: 30px;
     height: 20px;
     margin: 10px;
-
+    
     -webkit-transition: width 0.4s ease-in-out;
     -moz-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
@@ -640,7 +640,7 @@ header .banner-right:hover .move{
     top: 220px;
     cursor: pointer;
     border-radius: 0;
-
+    
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -708,7 +708,7 @@ header .banner-right:hover .move{
     height: 20px;
     margin: 10px;
     border-top: 2px solid #E44F4B;
-
+    
     -webkit-transition: width 0.4s ease-in-out;
     -moz-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
@@ -790,7 +790,7 @@ header .banner-right:hover .move{
     border: 0;
     outline: 0;
     background-color: #E3E3E3;
-
+    
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -844,7 +844,7 @@ header .banner-right:hover .move{
     border: 0;
     box-sizing: border-box;
     background-color: #75757F;
-
+    
     -webkit-transition: background-color 0.4s ease-in-out;
     -moz-transition: background-color 0.4s ease-in-out;
     transition: background-color 0.4s ease-in-out;
@@ -869,7 +869,7 @@ header .banner-right:hover .move{
     vertical-align: middle;
     margin: 0;
     cursor: pointer;
-
+    
     -webkit-transition: font-size 0.4s ease-in-out;
     -moz-transition: font-size 0.4s ease-in-out;
     transition: font-size 0.4s ease-in-out;
@@ -903,7 +903,7 @@ footer .back{
 footer .back a{
     text-decoration: none;
     color: #fff;
-
+    
     -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
