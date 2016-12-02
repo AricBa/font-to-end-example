@@ -273,24 +273,25 @@ header .banner-right:hover .move{
     width: 240px;
     height: 36px;
     margin: 0 10px;
-    
+
     font-size: 14px;
     line-height: 36px;
     text-align: left;
     color: #B3B3B3;
-    
+
     display: inline-block;
     position: relative;
-    
+
     box-sizing: border-box;
     border: 1px solid #C6B3AF;
-    
+
     background: url(../images/icon-7.png) no-repeat 210px 8px,#fff;
     background-size: 20px;
 }
 #section-4 .options .select:last-of-type{
     visibility: hidden;
 }
+
 #section-4 .options .select span{
     margin-left: 10px;
 }
@@ -360,7 +361,7 @@ header .banner-right:hover .move{
     cursor: pointer;
     position: relative;
     top: 36px;
-    
+
     -webkit-transition: background-color 0.4s ease-in-out;
     -moz-transition: background-color 0.4s ease-in-out;
     transition: background-color 0.4s ease-in-out;
@@ -408,6 +409,7 @@ header .banner-right:hover .move{
     font-size: 12px;
     color: #B3AFAC;
 }
+
 #section-5 .cell:nth-child(2)>.mes{
     padding-top: 30px;
 }
